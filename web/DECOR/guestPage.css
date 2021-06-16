@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 14, 2021, 5:19:08 PM
+    Author     : Admin
+*/
+
+body{
+    background-image: url(blue-3d-modern-background-design_53876-87397.jpg);
+}
+.bodyy{
+    background-size: auto;
+    border: background ;
+    padding-top: 20px;
+    margin-top: 20px;
+    background-image: url(https://www.google.com.vn/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-vector%2Fblue-3d-modern-background-design_4062947.htm&psig=AOvVaw1JcjI2wSaIDRqL2iS6GlIa&ust=1610604704746000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPiw2qygmO4CFQAAAAAdAAAAABAD);
+
+
+}
+.product {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    width: 1100px;
+    padding-top: 5px;
+    margin-top: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: buttonshadow;
+}
+
+.bodyy > .product
+{
+    margin: auto;
+    border: buttonshadow;
+
+}
+
+.aM{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: aqua;
+
+}
+.product > div img{
+    text-align: center;
+    margin: 5px 10px;
+    border: window;
+}
